@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://cdn.glitch.global/6d14b47e-6756-406f-b7e6-b2fe41af7bd6/favicon.ico?v=1643131981260" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>hey, look at us.</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/ssl.js"></script>
+    <script type="text/javascript" src="js/sync.js" defer></script>
+    <script type="text/javascript" src="js/tooltip.js" defer></script>
+  </head>
+  <body>
+    <aside class="tooltip">
+      <img class="icon question tooltip-toggle" src="img/question.svg" alt="what the heck is this?" />
+      <span class="tooltip-content hide">
+        <dl>
+          <dt class="question">What does this site do?</dt>
+          <dd class="answer">
+            The number is how any people are currently on the site.
+          </dd>
+          <dt class="question">That's&hellip;it?</dt>
+          <dd class="answer">
+            Yes.
+          </dd>
+          <dt class="question">Ok but why?</dt>
+          <dd class="answer">
+            It's a meditation on the specious community of the Internet and the alienating loneliness of self-reference in a time of&hellip;oh who am I kidding. Basically just because I had <a href="https://twitter.com/Hoffm/status/1484218122655703044" target="_blank">the idea</a> and couldn't let it go.
+          </dd>
+          <dt class="question">How does it work?</dt>
+          <dd class="answer">
+            You can see and remix <a href="https://glitch.com/~hey-look-at-us" target="_blank">the code</a> on Glitch.
+          </dd>
+          <dt class="question">Where does "hey look at us" come from?</dt>
+          <dd class="answer">
+            It's a <a href="https://knowyourmeme.com/memes/hey-look-at-us" target="_blank">meme</a>.
+          </dd>
+          <dt class="question">Who made this?</dt>
+          <dd class="answer">
+            <a href="https://twitter.com/hoffm" target="_blank">Michael Hoffman</a>.
+          </dd>
+        </dl>
+      </span>
+    </aside>
+
+    <article>
+      <p>
+        hey, look at us.        
+      </p>
+      <h1 class="glow" id="count">
+        {{ visitorCount }}
+      </h1>
+      <p>
+        who would've thought?
+      </p>
+      <a id="tweet" href="https://twitter.com/intent/tweet?text=hey%2C%20look%20at%20us.%0Awho%20would%27ve%20thought%3F%0A%0Ahttps%3A%2F%2Fheylookat.us" target="_blank">
+        <img class="icon twitter" src="img/twitter.svg" alt="tweet about us" />
+      </a>
+    </article>
+  </body>
+</html>
